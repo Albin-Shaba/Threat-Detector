@@ -1,0 +1,6 @@
+   banned_ips.json
+   file_hashes.json
+   threat_history.csv
+   logs/
+   reports/
+   __pycache__/
