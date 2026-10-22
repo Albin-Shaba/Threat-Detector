@@ -1,0 +1,6 @@
+# Fake accounts. No real person uses these, so anyone who tries
+# to log in with one is an attacker and gets banned right away.
+admin_backup
+svc_legacy
+root_old
+it_support_temp

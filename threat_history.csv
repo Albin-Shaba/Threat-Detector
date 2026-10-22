@@ -1,0 +1,13 @@
+found_at,type,threat_level,score,ip,location,device,computer,rule_or_reason,details,accounts_tried,first_attempt,last_attempt,failed,succeeded,blocked
+2026-10-21 22:11:07,ALERT,HIGH,70,198.19.194.59,"Sao Paulo, Brazil",python-requests,unknown,Impossible travel,"'zoe89' logged in from New York, USA then Sao Paulo, Brazil 0 min later",zoe89,2026-10-21 22:11:07,2026-10-21 22:11:07,0,1,0
+2026-10-21 22:11:19,ALERT,CRITICAL,100,203.0.113.171,"Moscow, Russia",Hydra,vps-server,Honeytoken,tried fake account 'admin_backup',admin_backup,2026-10-21 22:11:19,2026-10-21 22:11:19,0,0,1
+2026-10-21 22:11:19,BAN,CRITICAL,100,203.0.113.171,"Moscow, Russia",Hydra,vps-server,tried honeytoken account 'admin_backup',203.0.113.171 was banned,admin_backup,2026-10-21 22:11:19,2026-10-21 22:11:19,0,0,1
+2026-10-21 22:11:30,ALERT,CRITICAL,100,198.18.180.243,"Beijing, China",Burp Suite,unknown,Success after failures,logged in as 'sam95' after 4 failures - account may be hacked!,sam95,2026-10-21 22:11:18,2026-10-21 22:11:30,4,1,0
+2026-10-21 22:11:30,ALERT,CRITICAL,100,198.18.180.243,"Beijing, China",Burp Suite,unknown,Impossible travel,"'sam95' logged in from New York, USA then Beijing, China 0 min later",sam95,2026-10-21 22:11:18,2026-10-21 22:11:30,4,1,0
+2026-10-21 22:11:43,ALERT,HIGH,60,198.19.17.63,"Sao Paulo, Brazil",python-requests,parrot-os,Brute force,8 failed logins on 'kevin99',kevin99,2026-10-21 22:11:29,2026-10-21 22:11:43,5,0,3
+2026-10-21 22:11:43,BAN,HIGH,60,198.19.17.63,"Sao Paulo, Brazil",python-requests,parrot-os,5 failed logins,198.19.17.63 was banned,kevin99,2026-10-21 22:11:29,2026-10-21 22:11:43,5,0,3
+2026-10-21 22:11:56,ALERT,HIGH,60,192.0.2.29,"Berlin, Germany",python-requests,scanner01,Brute force,12 failed logins on 'taylor73',taylor73,2026-10-21 22:11:34,2026-10-21 22:11:56,5,0,7
+2026-10-21 22:11:56,BAN,HIGH,60,192.0.2.29,"Berlin, Germany",python-requests,scanner01,5 failed logins,192.0.2.29 was banned,taylor73,2026-10-21 22:11:34,2026-10-21 22:11:56,5,0,7
+2026-10-21 22:12:08,ALERT,HIGH,60,203.0.113.74,"Moscow, Russia",Hydra,kali,Brute force,12 failed logins on 'maria74',maria74,2026-10-21 22:11:46,2026-10-21 22:12:08,5,0,7
+2026-10-21 22:12:08,BAN,HIGH,60,203.0.113.74,"Moscow, Russia",Hydra,kali,5 failed logins,203.0.113.74 was banned,maria74,2026-10-21 22:11:46,2026-10-21 22:12:08,5,0,7
+2026-10-21 22:12:20,ALERT,HIGH,70,203.0.113.173,"Moscow, Russia",curl,parrot-os,Impossible travel,"'noah27' logged in from New York, USA then Moscow, Russia 0 min later",noah27,2026-10-21 22:12:20,2026-10-21 22:12:20,0,1,0
